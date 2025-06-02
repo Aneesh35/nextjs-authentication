@@ -79,7 +79,7 @@ export default function Login() {
                 <div className=" flex flex-col pt-4 items-center">
                     <button disabled={disableButton} className={`bg-blue-700 px-4 p-2 rounded-lg text-white hover:bg-blue-800 w-full ${disableButton ? "cursor-not-allowed" : ""}`} onClick={handleSubmit}>{loading ? <Spinner /> : "login"}</button>
                     <span className="p-2 px-5">
-                        Don't an account?
+                        Don't have an account?
                         <Link href={"/signup"} className="hover:text-blue-600"> SignUp</Link>
                     </span>
                 </div>
